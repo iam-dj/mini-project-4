@@ -10,22 +10,45 @@
 </head>
 <body>
     <header>
-
+        <h1>Project Tracker</h1>
+        <h2>Current Time & Date: <br /><span id="date-time"></span></h2>
     </header>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Instructions</h5>
-          <p class="card-text">Click the button below to open a form and provide information for the following:</p>
+    <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Instructions</h5>
+                  <p class="card-text">Click the button below to open a form and provide information for the following:</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Project Name</li>
+                  <li class="list-group-item">Project Type</li>
+                  <li class="list-group-item">Due Date</li>
+                </ul>
+                <div class="card-body">
+                    <button type="button" class="btn btn-dark">Dark</button>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="row align-items-start">
+                <div class="col">
+                  Name
+                </div>
+                <div class="col">
+                  Type
+                </div>
+                <div class="col">
+                  Due
+                </div>
+              </div>
+          </div>
         </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Project Name</li>
-          <li class="list-group-item">Project Type</li>
-          <li class="list-group-item">Due Date</li>
-        </ul>
-        <div class="card-body">
-            <button type="button" class="btn btn-dark">Dark</button>
-        </div>
-      </div>
+    </div>
+        
+        
+    
 
 
     <script src="script.js"></script>
