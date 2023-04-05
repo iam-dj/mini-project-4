@@ -1,3 +1,30 @@
+:root {
+    --color-white: white;
+    --color-bright-orange: #E54038;
+    --color-dark-greyblue: #273646;
+}
+
 body {
-    background-color: salmon;
+    background-color: var(--color-white);
+}
+
+.header {
+    background: var(--color-dark-greyblue);
+    color: var(--color-white);
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20 px;
+    margin: 20px;
+}
+
+.card-title {
+    background: var(--color-dark-greyblue);
+}
+
+.r-col {
+    background: var(--color-bright-orange);
 }
